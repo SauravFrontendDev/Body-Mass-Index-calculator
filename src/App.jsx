@@ -1,7 +1,9 @@
+import DesignSystem from "./components/DesignSystem";
+
 const App = () => {
   return (
     <div>
-      <h1>Starting React App</h1>
+      <DesignSystem />
     </div>
   );
 };

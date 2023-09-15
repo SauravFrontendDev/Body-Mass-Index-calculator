@@ -1,0 +1,65 @@
+.container {
+  max-width: 72.5rem;
+  margin-inline: auto;
+}
+
+.title-container {
+  padding-block: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading__primary {
+  color: var(--Gunmetal, #253347);
+  /* Heading XL */
+  font-family: Inter;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -3.2px;
+}
+
+.logo__container {
+  width: 4rem;
+  height: 4rem;
+}
+.color-container {
+  padding-block: 5.5rem;
+}
+.color-cards-container {
+  padding: 5rem;
+}
+
+.color-card {
+  width: 22.813rem;
+}
+
+.color-fill-block {
+  border-radius: 0.5rem;
+  background: var(--Gunmetal, #253347);
+  color: var(--Pure-White, #fff);
+  height: 8rem;
+  padding: 1.5rem;
+
+  display: flex;
+  align-items: flex-end;
+}
+
+.color__name {
+  display: flex;
+  gap: 0.5rem;
+
+  color: var(--Pure-White, #fff);
+  /* Heading M */
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.2px;
+}
+.hash {
+  opacity: 0.5;
+}

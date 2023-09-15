@@ -1,0 +1,18 @@
+.container__heading {
+  color: var(--Gunmetal, #253347);
+  /* Heading L */
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%; /* 52.8px */
+  letter-spacing: -2.4px;
+
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.number__heading {
+  color: var(--Borders, #d8e2e7);
+}
